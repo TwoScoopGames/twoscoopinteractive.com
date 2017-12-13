@@ -1,3 +1,5 @@
+NOTES
+
 title:
 
 Two Scoop Interactive - Games, Apps, and Interactive Experiences
@@ -19,10 +21,13 @@ Call today for a free consultation (502) 715-2710
 
 - Excellent communication
 - 100% US based team with offices Louisville, Kentucky
+- real people you can talk to
 - Friendly, reliable service
 - Over 5 years of experience
 - Dedicated artist/ animator / UX designer
 - Dedicated JavaScript web  / Unity C# developer
+
+
 
 
 
@@ -86,6 +91,8 @@ Did you lose a team member, or you are stuck on how to create a particular syste
 Want to release on a platform but have no way to test it? We can help.
 
 
+
+(might not be neccessary)
 
 ## Partner Services
  We love to help our friends in the games industry, especially local  creatives. If your project needs it we have trusted resources ready for the following:
