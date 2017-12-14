@@ -200,6 +200,7 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
 .service-heading {
+  height: 50px;
   margin: 15px 0;
   text-transform: none; }
 
