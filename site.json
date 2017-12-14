@@ -46,11 +46,11 @@
     "bio":"Eric has been programming games since he was a kid on his TRS-80! When Eric isn't solving problems using clean, reusable code he enjoys building custom mechanical computer keyboards and touring wildlife preserves.",
     "pic":"img/eric_lathrop.jpg"
   },
-
+  "portfolio-title": "Some examples of our work. Click a project to read more.",
   "portfolio": [
 
     {
-      "id": "portfolio1",
+      "id": "portfolioModal1",
       "title":"Advanced Debugging",
       "subtitle":"Designing a game to draw them in.",
       "client":"Telerik / Progress Software",
@@ -62,25 +62,14 @@
         {
           "src":"img/portfolio/telerik.gif",
           "alt":"Advanced Debugging designed by Two Scoop Interactive for Client: Telerik / Progress Software"
-        }
-      ]
-    },
-    {
-      "id": "portfolio2",
-      "title":"Advanced Debugging 2",
-      "subtitle":"Designing a game to draw them in.",
-      "client":"Telerik / Progress Software",
-      "category":"Trade Show Game Design",
-      "thumbnail":"img/portfolio/telerik-thumbnail.jpg",
-      "date":"Q4 2017",
-      "description":"The marketing team at Telerik came to us with a request for an engaging game to draw conference goers to their booth. The criteria was to use their existing mascot character assets for both the Telerik .net Ninja and Kendo UI Kendoka, record player's emails, and be ready in time for their next trade show (less than 3 months away) but the rest was up to us! We developed an upbeat game with fun graphics based on their brand, colors, products, and company values. The game is configurable for each trade show they bring it to and records player analytics for use in contests and marketing. The project is web-based for easy cross-platform play on any computer.",
-      "images": [
+        },
         {
-          "src":"img/portfolio/telerik.gif",
+          "src":"img/portfolio/telerik-email.jpg",
           "alt":"Advanced Debugging designed by Two Scoop Interactive for Client: Telerik / Progress Software"
         }
       ]
     }
+
 
   ],
 
