@@ -3,8 +3,9 @@
   "name": "two-scoop-interactive",
   "version": "0.0.1",
   "description": "Marketing site for Two Scoop Interactive. Let us show you what we can do you and your clients! Engaging games, apps, and Interactive experiences.",
-  "scripts":{
-    "start": "gulp dev"
+  "scripts": {
+    "start": "gulp dev",
+    "build": "node build.js"
   },
   "homepage": "https://github.com/TwoScoopGames/twoscoopinteractive.com",
   "bugs": {
@@ -24,6 +25,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "font-awesome": "4.7.0",
+    "handlebars": "^4.0.11",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1"
   },

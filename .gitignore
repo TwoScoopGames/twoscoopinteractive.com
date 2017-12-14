@@ -1,2 +1,4 @@
 node_modules
 .DS_Store
+dest/index.html
+upload.sh

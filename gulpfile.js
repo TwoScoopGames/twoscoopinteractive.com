@@ -31,7 +31,7 @@ gulp.task('sass', function() {
 
 // Minify compiled CSS
 gulp.task('minify-css', ['sass'], function() {
-  return gulp.src('css/agency.css')
+  return gulp.src('dest/css/agency.css')
     .pipe(cleanCSS({
       compatibility: 'ie8'
     }))
@@ -46,7 +46,7 @@ gulp.task('minify-css', ['sass'], function() {
 
 // Minify custom JS
 gulp.task('minify-js', function() {
-  return gulp.src('js/agency.js')
+  return gulp.src('dest/js/agency.js')
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
@@ -69,13 +69,13 @@ gulp.task('copy', function() {
       '!**/bootstrap-theme.*',
       '!**/*.map'
     ])
-    .pipe(gulp.dest('vendor/bootstrap'))
+    .pipe(gulp.dest('dest/vendor/bootstrap'))
 
   gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-    .pipe(gulp.dest('vendor/jquery'))
+    .pipe(gulp.dest('dest/vendor/jquery'))
 
   gulp.src(['node_modules/jquery.easing/*.js'])
-    .pipe(gulp.dest('vendor/jquery-easing'))
+    .pipe(gulp.dest('dest/vendor/jquery-easing'))
 
   gulp.src([
       'node_modules/font-awesome/**',
@@ -85,7 +85,7 @@ gulp.task('copy', function() {
       '!node_modules/font-awesome/*.md',
       '!node_modules/font-awesome/*.json'
     ])
-    .pipe(gulp.dest('vendor/font-awesome'))
+    .pipe(gulp.dest('dest/vendor/font-awesome'))
 })
 
 // Default task
@@ -95,7 +95,7 @@ gulp.task('default', ['sass', 'minify-css', 'minify-js', 'copy']);
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: ''
+      baseDir: 'dest/'
     },
   })
 })
@@ -103,9 +103,9 @@ gulp.task('browserSync', function() {
 // Dev task with browserSync
 gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() {
   gulp.watch('scss/*.scss', ['sass']);
-  gulp.watch('css/*.css', ['minify-css']);
-  gulp.watch('js/*.js', ['minify-js']);
+  gulp.watch('dest/css/*.css', ['minify-css']);
+  gulp.watch('dest/js/*.js', ['minify-js']);
   // Reloads the browser whenever HTML or JS files change
-  gulp.watch('*.html', browserSync.reload);
-  gulp.watch('js/**/*.js', browserSync.reload);
+  gulp.watch('dest/*.html', browserSync.reload);
+  gulp.watch('dest/js/**/*.js', browserSync.reload);
 });

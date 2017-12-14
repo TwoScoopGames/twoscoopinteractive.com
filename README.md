@@ -16,7 +16,14 @@ Gulp modules setup and what they do on file save:
 * `minify-js`
 
 
+### edit and build
 
+make changes to `site.json` or `template.html`
+Use `npm run build` to compile handlebars
+
+run 'npm start' to compile other changes like scss
+
+upload files in the `dest/` folder
 
 
 ## Credits

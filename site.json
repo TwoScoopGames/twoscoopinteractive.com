@@ -1,0 +1,123 @@
+{
+  "title": "Two Scoop Interactive",
+  "legalname":"Two Scoop Games, LLC.",
+  "url": "http://tsi.alexbezuska.com",
+  "title-tag": "Two Scoop Interactive - Games, Apps, and Interactive Experiences",
+  "meta": {
+    "description": "We can add value to you and your clients through web and mobile games, apps, interactive trade show experiences and more. Give us a call today! (502) 715-2710",
+    "type": "organization",
+    "logo": "http://twoscoopgames.com/img/logo-baby.png"
+  },
+  "social": {
+    "twitter-handle":"@twoscoopgames",
+        "twitter-title": "Follow us on Twitter",
+    "twitter": "https://twitter.com/TwoScoopGames",
+    "facebook-title": "Connect with us on Linkedin",
+    "facebook": "https://www.facebook.com/TwoScoopGames",
+    "linkedin-title":"Like us on Facebook",
+    "linkedin":"https://www.linkedin.com/company/two-scoop-games",
+    "tumblr":"http://twoscoopgames.tumblr.com/",
+    "twitch": "http://twitch.tv/twoscoopgames"
+  },
+  "nav":{
+    "home-title": "Two Scoop Interactive - home",
+    "services-title": "Find out more about the services Two Scoop Interactive offers",
+    "portfolio-title": "View examples of Two Scoop Interactive's work",
+    "team-title": "Meet the Two Scoop Interactive team",
+    "contact-title": "Contact Two Scoop Interactive for a free consoltation"
+  },
+  "main-phone": "(502) 715-2710",
+  "main-email": "alex@twoscoopgames.com",
+
+  "alex":{
+    "phone":"(502) 715-2710",
+    "email":"alex@twoscoopgames.com",
+    "name":"Alex Bezuska",
+    "title":"Lead Visual Designer",
+    "bio":"Alex enjoys bringing art and technology together to create awesome stuff! When he isn't working on art for new game concepts he enjoys woodworking, beekeeping, and being a good parent to his cats and chickens.",
+    "pic": "img/alex_bezuska.jpg"
+
+  },
+  "eric":{
+    "phone":"",
+    "email":"eric@twoscoopgames.com",
+    "name":"Eric Lathrop",
+    "title":"Lead Developer",
+    "bio":"Eric has been programming games since he was a kid on his TRS-80! When Eric isn't solving problems using clean, reusable code he enjoys building custom mechanical computer keyboards and touring wildlife preserves.",
+    "pic":"img/eric_lathrop.jpg"
+  },
+
+  "portfolio": [
+
+    {
+      "id": "portfolio1",
+      "title":"Advanced Debugging",
+      "subtitle":"Designing a game to draw them in.",
+      "client":"Telerik / Progress Software",
+      "category":"Trade Show Game Design",
+      "thumbnail":"img/portfolio/telerik-thumbnail.jpg",
+      "date":"Q4 2017",
+      "description":"The marketing team at Telerik came to us with a request for an engaging game to draw conference goers to their booth. The criteria was to use their existing mascot character assets for both the Telerik .net Ninja and Kendo UI Kendoka, record player's emails, and be ready in time for their next trade show (less than 3 months away) but the rest was up to us! We developed an upbeat game with fun graphics based on their brand, colors, products, and company values. The game is configurable for each trade show they bring it to and records player analytics for use in contests and marketing. The project is web-based for easy cross-platform play on any computer.",
+      "images": [
+        {
+          "src":"img/portfolio/telerik.gif",
+          "alt":"Advanced Debugging designed by Two Scoop Interactive for Client: Telerik / Progress Software"
+        }
+      ]
+    },
+    {
+      "id": "portfolio2",
+      "title":"Advanced Debugging 2",
+      "subtitle":"Designing a game to draw them in.",
+      "client":"Telerik / Progress Software",
+      "category":"Trade Show Game Design",
+      "thumbnail":"img/portfolio/telerik-thumbnail.jpg",
+      "date":"Q4 2017",
+      "description":"The marketing team at Telerik came to us with a request for an engaging game to draw conference goers to their booth. The criteria was to use their existing mascot character assets for both the Telerik .net Ninja and Kendo UI Kendoka, record player's emails, and be ready in time for their next trade show (less than 3 months away) but the rest was up to us! We developed an upbeat game with fun graphics based on their brand, colors, products, and company values. The game is configurable for each trade show they bring it to and records player analytics for use in contests and marketing. The project is web-based for easy cross-platform play on any computer.",
+      "images": [
+        {
+          "src":"img/portfolio/telerik.gif",
+          "alt":"Advanced Debugging designed by Two Scoop Interactive for Client: Telerik / Progress Software"
+        }
+      ]
+    }
+
+  ],
+
+  "services-description": "Intrigue, educate, engage, and excite with",
+  "services": [
+    {
+      "icon": "fa-eye",
+      "title": "Interactive Trade Show Experiences",
+      "description": ""
+    },
+    {
+      "icon": "fa-television",
+      "title": "Custom Digital Signage",
+      "description": ""
+    },
+    {
+      "icon": "fa-photo",
+      "title": "Interactive Museum Exhibits",
+      "description": ""
+    },
+    {
+      "icon": "fa-graduation-cap",
+      "title": "Education & Training",
+      "description": ""
+    },
+    {
+      "icon": "fa-lightbulb-o",
+      "title": "Product Marketing",
+      "description": ""
+    },
+    {
+      "icon": "fa-mobile",
+      "title": "Game Development",
+      "description": ""
+    }
+  ]
+  ,
+  "team-description": "meet your new Problem solvers",
+  "contact-description":"Please include as much detail as possible about your project requirements, timeline, and budget."
+}
