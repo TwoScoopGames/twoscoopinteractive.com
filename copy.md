@@ -41,37 +41,34 @@ At a trade show you have 3 seconds to catch their attention... if you're lucky!
 
 Intrigue, Engage, and Excite with:
 
-#### Interactive Experiences
+#### Interactive Trade Show Experiences
 Draw attention to your booth with a game that features your product and branding. Give out prizes for high scores, collect vital marketing data, and more.
 
-#### Digital signage
+
+#### Custom Digital signage
 Draw attention to your booth with fully custom and  fully customizable digital signage.
 
 
 
-###  Musuem exhibits
+###  Interactive Museum exhibits
 interactive display on touch screen, or custom controller. tv/projector
 
 
 ### Training simulations
 
 
-### Product marketing education
+### Product Education
 buying a car, selecting options, seeing a model of the car change color
 digital signage
 interactive product tours
 
 
 
-### custom kiosks
-
-
-### Educational
+### Education & Training
 
 
 
-
-### Game Development Services
+### Game Development
 
 We can create your next mobile or web game - concept to  distribution.
 Idea to App Store
