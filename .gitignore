@@ -8,3 +8,5 @@ css/*
 *.html
 case-study/*.html
 js/*.min.js
+
+scss/case-studio/
