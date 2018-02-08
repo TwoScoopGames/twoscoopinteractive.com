@@ -3,3 +3,8 @@ bower_components
 old
 .DS_Store
 upload.sh
+css/*
+!css/.gitkeep
+*.html
+case-study/*.html
+js/*.min.js

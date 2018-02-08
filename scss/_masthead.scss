@@ -54,7 +54,7 @@ header.masthead {
     @include coverer;
   }
   video {
-    background-image: url('../img/header.png');
+    background: $tsg-grey;
     object-fit: cover;
   }
   .viewport-header {

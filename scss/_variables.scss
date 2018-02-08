@@ -12,4 +12,7 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #b42c91 !default;
+$tsg-grey: #414042;
+$tsg-purple: #b42c91;
+$tsg-green: #65b7a1;
+$primary: $tsg-purple !default;
