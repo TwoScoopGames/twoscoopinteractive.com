@@ -1,0 +1,18 @@
+{
+  "heading": "Team",
+  "subtitle": "Meet your new problem solvers.",
+  "alex": {
+    "photo":"img/alex_bezuska.jpg",
+    "name":"Alex Bezuska",
+    "title":"Lead Visual Designer",
+    "email":"alex@twoscoopgames.com",
+    "bio":"Alex enjoys bringing art and technology together to create awesome stuff! When he isn't working on art for new game concepts he enjoys woodworking, beekeeping, and being a good parent to his cats and chickens."
+  },
+  "eric": {
+    "photo":"img/eric_lathrop.jpg",
+    "name":"Eric Lathrop",
+    "title":"Lead Developer",
+    "email":"eric@twoscoopgames.com",
+    "bio":"Eric has been programming games since he was a kid on his TRS-80! When Eric isn't solving problems using clean, reusable code he enjoys building custom mechanical computer keyboards and touring wildlife preserves."
+  }
+}

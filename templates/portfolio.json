@@ -1,0 +1,38 @@
+{
+  "portfolio":[
+    {
+      "name":"Deep AR",
+      "category": "Augmented Reality Mapping App",
+      "img": "img/portfolio/deep-ar-thumb.png"
+    },
+    {
+      "name":"Telerik CodeKrush",
+      "category": "Tech Expo Game with Analytics",
+      "img": "img/portfolio/codekrush-thumb.png"
+
+    },
+    {
+      "name":"PullPals",
+      "category": "3D Character Design & modeling",
+      "img": "img/portfolio/pullpals-thumb.png"
+
+    },
+    {
+      "name":"Emoji Grams",
+      "category": "Mobile Game Concept Art",
+      "img": "img/portfolio/emojigrams-thumb.png"
+
+    },
+    {
+      "name":"The Underdogs",
+      "category": "Character Art & Animation",
+      "img": "img/portfolio/underdogs-thumb.png"
+
+    },
+    {
+      "name":"Online Prize Wheel",
+      "category": "Web based gameification",
+      "img": "img/portfolio/prizewheel-thumb.png"
+    }
+  ]
+}

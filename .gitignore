@@ -1,4 +1,5 @@
 node_modules
+bower_components
+old
 .DS_Store
-dest/index.html
 upload.sh

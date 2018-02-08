@@ -1,0 +1,71 @@
+{
+  "name": "Two Scoop Interactive",
+  "tagline": "Games, Apps, and Interactive Experiences",
+  "url": "http://twoscoopinteractive.com",
+  "meta-description":"We can add value to you and your clients through web and mobile games, apps, interactive trade show experiences and more. Give us a call today! (502) 715-2710",
+  "meta-author":"Two Scoop Games",
+
+  "google-analytics": "UA-48152351-22",
+
+  "hero-headline": "Engage your potential customers with a custom interactive experience",
+  "hero-description": "",
+  "hero-button-link":"#contact",
+  "hero-button-text": "Let's start something fun!",
+  "parent-name":"Two Scoop Games",
+  "parent-url": "http://twoscoopgames.com",
+"parent-entity": "Two Scoop Games, LLC",
+
+  "email": "info@twoscoopgames.com",
+  "phone": "502.715.2710",
+
+  "social": [
+    {
+      "name": "twitter",
+      "icon":"fa-twitter",
+      "url": "https://twitter.com/TwoScoopGames",
+      "title":"Follow us on Twitter"
+    },
+    {
+      "name": "twitter",
+      "icon":"fa-facebook",
+      "url": "https://www.facebook.com/TwoScoopGames",
+      "title":"Like us on Facebook"
+    },
+    {
+      "name": "Linkedin",
+      "icon":"fa-linkedin",
+      "url": "https://www.linkedin.com/company/two-scoop-games",
+      "title":"Connect with us on Linkedin"
+    }
+  ],
+
+  "footer-location": "Proudly located in Louisville, Kentucky USA ❤️",
+  "service-heading": "At Your Service",
+  "services": [
+
+    {
+      "icon": "fa-eye",
+      "name": "Interactive Trade Show Experiences",
+      "description": "Draw attention to your booth with a game that features your product and branding. Give out prizes for high scores, collect vital marketing data, and more."
+    },
+
+    {
+      "icon": "fa-photo",
+      "name": "Interactive Museum Exhibits",
+      "description": "Whether it's a big screen, touch screen, tablet, or kiosk we can create custom games and apps to engage, and enlighten your guests."
+    },
+
+    {
+      "icon": "fa-lightbulb-o",
+      "name": "Product Marketing",
+      "description": "From fully interactive 3D product tours on your website to product configuration apps for the sales team, we can help make you and your product look good!"
+    },
+
+    {
+      "icon": "fa-mobile",
+      "name": "Game Development",
+      "description": "Idea to App Store – we can create your next mobile or web game - concept to distribution. Already have a game and need help? Need an existing game ported to other platforms? We have you covered."
+    }
+
+  ]
+}

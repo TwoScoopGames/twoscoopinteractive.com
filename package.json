@@ -1,41 +1,43 @@
 {
-  "title": "Two Scoop Interactive",
-  "name": "two-scoop-interactive",
-  "version": "0.0.1",
-  "description": "Marketing site for Two Scoop Interactive. Let us show you what we can do you and your clients! Engaging games, apps, and Interactive experiences.",
-  "scripts": {
-    "start": "gulp dev",
-    "build": "node build.js"
-  },
-  "homepage": "https://github.com/TwoScoopGames/twoscoopinteractive.com",
-  "bugs": {
-    "url": "https://github.com/TwoScoopGames/twoscoopinteractive.com/issues",
-    "email": "info@twoscoopgames.com"
-  },
-  "license": "proprietary",
-  "author": "Two Scoop Interactive",
-  "contributors": [
-    "Alex Bezuska (http://alexbezuska.com)",
-    "Eric Lathrop (http://ericlathrop.com)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TwoScoopGames/twoscoopinteractive.com.git"
-  },
-  "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
-    "font-awesome": "4.7.0",
-    "handlebars": "^4.0.11",
-    "jquery": "^3.2.1",
-    "jquery.easing": "^1.4.1"
-  },
-  "devDependencies": {
-    "browser-sync": "2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "3.9.0",
-    "gulp-header": "1.8.9",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "3.0.0"
-  }
+    "name": "twoscoopinteractive.com",
+    "version": "2.0.0",
+    "scripts": {
+        "build": "npm run build-scss && npm run static-generator",
+        "build-scss": "gulp",
+        "static-generator": "node static-generator",
+        "upload": "sh upload.sh"
+    },
+    "description": "",
+    "homepage": "https://twoscoopinteractive.com/",
+    "bugs": {
+        "url": "https://github.com/TwoScoopGames/twoscoopinteractive.com/issues",
+        "email": "info@twoscoopgames.com"
+    },
+    "license": "MIT",
+    "author": "Two Scoop Games",
+    "contributors": [
+        "Alex Bezuska (http://alexbezuska.com)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TwoScoopGames/twoscoopinteractive.com.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "font-awesome": "4.7.0",
+        "handlebars": "^4.0.11",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0",
+        "scrollreveal": "3.3.6"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
 }

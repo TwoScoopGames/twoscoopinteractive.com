@@ -1,0 +1,88 @@
+</main>
+<footer>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6">
+        <span class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> <a href="{{parent-url}}" title="{{parent-name}}">{{parent-entity}}.</a> All rights reserved.</span><br/>
+        <span class="copyright">{{footer-location}}</span>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {{#each social}}
+          <li class="list-inline-item">
+            <a href="{{url}}" target="_blank" title="{{title}}">
+              <i class="fa {{icon}}"></i>
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <div class="fb-like" data-href="{{parent-url}}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+
+<!-- Contact form JavaScript -->
+<script src="js/jqBootstrapValidation.min.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/creative.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48152351-22"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', '{{google-analytics}}');
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+"@type" : "Organization",
+"legalName" : "Two Scoop Games, LLC.",
+"url" : "{{url}}",
+"contactPoint" : [{
+  "@type" : "ContactPoint",
+  "telephone" : "+1-502-715-2710",
+  "contactType" : "Free consultation"
+}]
+"logo" : "",
+"sameAs" : [ "https://www.facebook.com/TwoScoopGames",
+"https://twitter.com/TwoScoopGames",
+"http://twoscoopgames.tumblr.com/",
+"http://twitch.tv/twoscoopgames",
+"https://www.linkedin.com/company/two-scoop-games"]
+}
+</script>
+
+</body>
+
+</html>

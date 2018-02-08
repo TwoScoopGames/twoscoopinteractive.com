@@ -1,31 +1,14 @@
-# twoscoopinteractive.com
+# Two Scoop Interactive
+
+to make changes make edits in the templates folder
+each part has a template `.hbs` and a json file for data
+
+`npm run build` build templates and also compiles the scss
+
+`npm run upload` runs a script named `upload.sh` (not committed in repo)
 
 
 
-## Setup
 
-`npm install`
-
-Use `npm start` to start the gulp dev server.
-
-Gulp modules setup and what they do on file save:
-
-* `browserSync` - acts like webpack dev server
-* `sass` - compile sass
-* `minify-css`
-* `minify-js`
-
-
-### edit and build
-
-make changes to `site.json` or `template.html`
-Use `npm run build` to compile handlebars
-
-run 'npm start' to compile other changes like scss
-
-upload files in the `dest/` folder
-
-
-## Credits
-
-Original MIT licensed  [Agency Bootstrap 4 theme](https://startbootstrap.com/template-overviews/agency/) by [David Miller](http://davidmiller.io/)
+Theme modified from:
+ [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
