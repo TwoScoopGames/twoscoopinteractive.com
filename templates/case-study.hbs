@@ -22,7 +22,7 @@
 
 
 
-{{#if top-section}}
+{{#if show-top}}
 <div class="container">
   <div class="row">
     <div class="col-sm-12 col-xs-12 ">
@@ -71,7 +71,7 @@
 <div class="container">
   {{#each client-quotes}}
   <blockquote class="blockquote blockquote-reverse">
-    <p class="mb-0">{{quote}}</p>
+    <p class="mb-0"><span class="quote">&ldquo;</span>{{quote}}&rdquo;</p>
     <footer class="blockquote-footer text-right"><cite title="Source Title">{{person}}</cite>, {{title}}, {{../client-name}}</footer>
   </blockquote>
   {{/each}}
@@ -219,6 +219,8 @@ background-attachment: fixed;">
 
 
   <div class="container text-center">
+    <h3>Do you have a problem we can solve with an interactive experience?</h3>
+    <br>
     <a class="btn btn-primary btn-xl" href="/index.html#services">Let's create something fun!</a>
   </div>
 

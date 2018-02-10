@@ -11,7 +11,7 @@
   "show-top": false,
   "client-description": "The minds behind Deep AR have decades of industry experience in exploration geology, cartography, and digital product entrepreneurship. Having previously created successful app products, the company brought Two Scoop Interactive on to build this particular vision.",
   "purpose-problem":"Corporations and governments have data about where points of interest (such as drill holes, mines, and lines) exist underground. For example, drilling for the purpose of checking mineral content can cost around $1,000,000 per hole, therefore having a firm grasp of what’s beneath the surface can be a huge advantage.",
-  "purpose-solution":"Deep AR is a mobile app that securely loads your 3D data and displays it in virtual and augmented reality. Take it offline and use it in the field to see your data in real space. Forging ahead with new technology, Deep AR empower its users with a powerful interactive experience informed with relevant and accurate data, off-the-grid and in real-time, to create successful innovation in the field.",
+  "purpose-solution":"Deep AR is a mobile app that securely loads your 3D data and displays it in virtual and augmented reality. Take it offline and use it in the field to see your data in real space. Forging ahead with new technology, Deep AR empowers its users with a powerful interactive experience informed with relevant and accurate data, off-the-grid and in real-time, to create successful innovation in the field.",
 
 
 
@@ -33,7 +33,7 @@
 
   "what-we-did":"Two Scoop Interactive created a polished app demo with real working features to attract attention and gain interest and investors for Deep AR.",
 
-  "challenge":"Deep AR came to us with industry knowledge, a unique vision, and a goal of having a working demo in time to impress potential investors at a large industry event. A great idea needed great execution to be seen.",
+  "challenge":"Deep AR came to us with a unique vision for an augmented reality mobile app to visualize underground mapping data out in the field. Their goal was to create a working demo in time to impress potential investors at a large industry event. A great idea needed great execution to be seen.",
   "challenge-image":"/case-study/deepardemo/industry.jpg",
 
   "outcome": "We knew that we needed to create more than your average tech demo to impress potential investors and get the industry to take notice. We delivered a demo app with a clean polished UI, and a simulated reality mode which puts the user out in the field — wherever they are. The demo was successful and gained a lot of interest for the project’s debut.",
@@ -61,10 +61,10 @@
 
   "process":[
     "In the initial phone call, Deep AR explained the app’s concept, features, and the problem it solves.",
-    "We worked closely with Scott, the CEO, to refine the scope and choose the most impactful features to present at an upcoming industry event.",
+    "We worked closely with Deep AR to refine the scope and choose the most impactful features to present at an upcoming industry event.",
     "No existing AR framework was a perfect fit for the potentially bumpy outdoor terrain use-case, so our lead developer created a lightweight set of tools for creating an AR experience without requiring a user to be near a flat surface.",
     "Building the demo with the next phase as a full marketable app in mind, we developed a solid foundation to build upon instead of smoke and mirrors.",
-    "Through the course of the timeline we talked frequently on Slack, and had bi-weekly calls to insure the app was on the right track.",
+    "Through the course of the timeline we talked frequently on Slack, and had bi-weekly calls to ensure the app was on the right track.",
     "The demo app was delivered on time, and we even hear it got a few “oohs and ahhs”  when presented."
   ],
 

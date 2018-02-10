@@ -1,18 +1,21 @@
-<section class="p-0" id="portfolio">
+<section class="p-0" id="work">
+
+<div class="nav-height-spacer"></div>
+
   <div class="container-fluid p-0">
     <div class="row no-gutters">
 
 
-      {{#each portfolio}}
+      {{#each work}}
       <div class="col-lg-4 col-sm-6">
         {{#if url}}
-        <a class="portfolio-box" href="{{url}}">
+        <a class="work-box" href="{{url}}">
           {{else}}
-            <div class="portfolio-box">
+            <div class="work-box">
           {{/if}}
           <img class="img-fluid" src="{{img}}" alt="{{name}} - {{category}} by Two Scoop Interactive">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
+          <div class="work-box-caption">
+            <div class="work-box-caption-content">
               <div class="project-category text-faded">
                 {{category}}
               </div>

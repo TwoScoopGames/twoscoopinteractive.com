@@ -13,8 +13,8 @@
 			"data": "services"
 		},
 		{
-			"template": "portfolio",
-			"data": "portfolio"
+			"template": "work",
+			"data": "work"
 		},
 		{
 			"template": "team",

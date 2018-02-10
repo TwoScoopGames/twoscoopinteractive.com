@@ -1,9 +1,9 @@
-.portfolio-box {
+.work-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
-  .portfolio-box-caption {
+  .work-box-caption {
     position: absolute;
     bottom: 0;
     display: block;
@@ -11,10 +11,10 @@
     height: 100%;
     text-align: center;
     opacity: 0;
-    color: $white;
+    color: white;
     background: fade-out($primary, .1);
     @include transition-all;
-    .portfolio-box-caption-content {
+    .work-box-caption-content {
       position: absolute;
       top: 50%;
       width: 100%;
@@ -36,7 +36,7 @@
     }
   }
   &:hover {
-    .portfolio-box-caption {
+    .work-box-caption {
       opacity: 1;
     }
   }
@@ -44,8 +44,8 @@
     outline: none;
   }
   @media (min-width: 768px) {
-    .portfolio-box-caption {
-      .portfolio-box-caption-content {
+    .work-box-caption {
+      .work-box-caption-content {
         .project-category {
           font-size: 16px;
         }
