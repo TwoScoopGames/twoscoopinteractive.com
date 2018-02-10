@@ -5,151 +5,31 @@
 @import "masthead";
 @import "services";
 @import "portfolio";
+@import "team";
 @import "footer";
 
 @import "bootstrap-overrides";
-$pad: 20px;
-/* case study styles */
-.case-study{
+@import "case-study";
+  .contact {
 
-  p{
-    font-size: 20px;
-    max-width: 100%;
-    letter-spacing: .1rem;
-    font-weight: 200;
-  }
-  .module{
-    margin-bottom: $pad;
-  }
-
-  .container, .container-fluid{
-    margin-top: $pad * 8;
-    margin-bottom: $pad * 8;
-
-  }
-  .bg-image{
-    padding-top: $pad * 2 !important;
-    padding-bottom: $pad * 2 !important;
-  }
-
-  .big-image{
-    margin-top: 0 !important;
-    height: 100vh;
-
-    .inner{
-      display: flex !important;
-      justify-content: center;
-      align-items: center !important;
-
-      width: 100%;
-      height: 100%;
-      color: white !important;
-      background: rgba(0,0,0,0.5);
-
+    .form-control{
+      padding: 4px 18px;
+      border-radius: 25px;
+      line-height: 2.5rem;
+      border: 2px solid $gray-400;
+      transition: all .5s ease-in-out;
     }
-  }
 
 
-
-  .fa-angle-down{
-    font-size: 75px;
-    margin-top: $pad * 3;
-  }
-
-
-  .blockquote{
-    font-family: georgia;
-    font-weight: 200;
-    font-size: 24px;
-    font-style: italic;
-    color: #777272;
-  }
-
-
-
-  .what-we-did-text{
-    margin: 0;
-    max-width: 100%;
-    font-size: 31px;
-    font-weight: 300;
-    letter-spacing: .1rem;
-  }
-
-  ul.simple{
-    margin: 0;
-    padding: 0;
-    li{
-      padding: 0px;
-      list-style-type: none;
-      font-size: 18px;
-      color: #000;
-      font-weight: 400;
-      margin-bottom: 0;
+textarea{
+  min-height: 187px;
+}
+    .form-control:focus{
+      border: 2px solid $primary;
+      box-shadow: none;
     }
-  }
-
-  .container, .container-fluid{
-    //  &:hover{border: 1px solid red;}
-  }
-
-  .container-fluid.fullbleed{
-    padding: 0;
-    .row{  padding: 0;}
-    [class^="col-"]{  padding: 0;}
-  }
-
-  .row{
-    //  &:hover{border: 1px solid green;}
-  }
-
-  [class^="col-"]{
-    //&:hover{border: 1px solid blue;}
-  }
-
-
-  h1{
-
-    font-size: 42px;
-    font-size: 54px;
-    line-height: 1.13;
-    font-weight: 300 !important;
-    margin-bottom: 10px;
-    color: #000;
-  }
-
-  h2{
-    font-weight: 300 !important;
-    margin-bottom: $pad;
-  }
-
-  h4{
-    font-size: 20px;
-    padding-top: 0;
-    line-height: 1.33;
-    color: black;
-    letter-spacing: .1em;
-    padding-bottom: 3px;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-
-  h5{
-    font-size: 15px;
-    color: #999;
-    letter-spacing: .1em;
-    font-weight: 500;
-    margin-bottom: 5px;
-    padding-bottom: 0;
-  }
-
-
-
-  .text-white {
-    color: white !important;
-    h1, h2, h3, h4, h5, h6, p{
-      color: white !important;
+    button{
+      margin-top: 15px;
     }
+
   }
-
-
-}/* case study*/
