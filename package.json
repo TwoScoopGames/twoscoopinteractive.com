@@ -2,9 +2,9 @@
     "name": "twoscoopinteractive.com",
     "version": "2.0.0",
     "scripts": {
-        "build": "npm run build-scss && npm run static-generator",
-        "build-scss": "gulp",
-        "static-generator": "node static-generator",
+        "build": "gulp && npm run noise",
+        "start": "gulp dev",
+        "noise": "node noise",
         "upload": "sh upload.sh"
     },
     "description": "",

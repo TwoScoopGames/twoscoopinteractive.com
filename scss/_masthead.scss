@@ -36,7 +36,6 @@ header.masthead {
   }
 }
 
-
 @mixin coverer {
   width: 100vw;
   height: 100vh;
@@ -65,10 +64,10 @@ header.masthead {
   }
 }
 
-main {
+main.home {
   background: white;
   position: relative;
-  padding: 1rem;
+  padding: 1rem 0;
   margin-top: 100vh;
   &::before {
     content: "";

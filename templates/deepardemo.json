@@ -1,17 +1,77 @@
 {
-  "project": "Deep AR Demo",
-  "client": "Deep AR",
-  "description":"",
 
-  "challenge":"Deep AR came to us with a industry knowlege, a unique vision, and a goal of having a working demo in time to impress potential investors and clients at a large industry event",
-  "solution": "We knew that we needed toc reate more than a 'tech demo' to impress potential investors, and get the industry to take notice. We delivered a demo app with a clean polished UI, and a simulated reality mode which puts the user out in the field - wherever they are.",
-  "img":"",
+  "big-image": "/case-study/deepardemo/jonny-caspari-383401.jpg",
 
+  "project": "Deep AR App Demo",
+
+
+  "client-name": "Deep AR",
+
+
+  "show-top": false,
+  "client-description": "The minds behind Deep AR have decades of industry experience in exploration geology, cartography, and digital product entrepreneurship. Having previously created successful app products, the company brought Two Scoop Interactive on to build this particular vision.",
+  "purpose-problem":"Corporations and governments have data about where points of interest (such as drill holes, mines, and lines) exist underground. For example, drilling for the purpose of checking mineral content can cost around $1,000,000 per hole, therefore having a firm grasp of what’s beneath the surface can be a huge advantage.",
+  "purpose-solution":"Deep AR is a mobile app that securely loads your 3D data and displays it in virtual and augmented reality. Take it offline and use it in the field to see your data in real space. Forging ahead with new technology, Deep AR empower its users with a powerful interactive experience informed with relevant and accurate data, off-the-grid and in real-time, to create successful innovation in the field.",
+
+
+
+  "client-quotes":[
+    {
+      "quote":"Alex and his team at Two Scoop Games are hard working engineers with a strong future. Most importantly, they listen to a client and adhere to good communication and management principles with clarity and focus.",
+      "person":"Scott Close",
+      "title":"CEO"
+    }
+  ],
+
+  "project-image": "/case-study/deepardemo/deepardemo-mockup-1.jpg",
+
+"task-bg": "/case-study/deepardemo/topo.jpg",
+  "task": "Creating a demo to impress",
+  "task-flavor1": "Real features instead of smoke and mirrors",
+  "task-flavor2": "Polish instead of excuses",
+
+
+  "what-we-did":"Two Scoop Interactive created a polished app demo with real working features to attract attention and gain interest and investors for Deep AR.",
+
+  "challenge":"Deep AR came to us with industry knowledge, a unique vision, and a goal of having a working demo in time to impress potential investors at a large industry event. A great idea needed great execution to be seen.",
+  "challenge-image":"/case-study/deepardemo/industry.jpg",
+
+  "outcome": "We knew that we needed to create more than your average tech demo to impress potential investors and get the industry to take notice. We delivered a demo app with a clean polished UI, and a simulated reality mode which puts the user out in the field — wherever they are. The demo was successful and gained a lot of interest for the project’s debut.",
+  "outcome-image":"/case-study/deepardemo/deepardemo.gif",
+
+"show-scope": false,
   "scope": [
-    ""
-  ]
-,
-"keywords": [
-  ""
-]
+    "an AR (Augmented Reality) view",
+    "3D Rendering of Existing Data Points",
+    "Compass and Gyroscope-based Orientation",
+    "a Clean Minimal UI",
+    "Cross platform compatibility (iOS and Android)"
+  ],
+  "additional-tasks": [
+    "Data Format Research"
+  ],
+
+  "url": "https://www.deeparmap.com/",
+
+
+    "project-image2": "/case-study/deepardemo/deepardemo-sketches.jpg",
+
+      "project-image3": "/case-study/deepardemo/deepardemo-multiple-devices.jpg",
+
+
+  "process":[
+    "In the initial phone call, Deep AR explained the app’s concept, features, and the problem it solves.",
+    "We worked closely with Scott, the CEO, to refine the scope and choose the most impactful features to present at an upcoming industry event.",
+    "No existing AR framework was a perfect fit for the potentially bumpy outdoor terrain use-case, so our lead developer created a lightweight set of tools for creating an AR experience without requiring a user to be near a flat surface.",
+    "Building the demo with the next phase as a full marketable app in mind, we developed a solid foundation to build upon instead of smoke and mirrors.",
+    "Through the course of the timeline we talked frequently on Slack, and had bi-weekly calls to insure the app was on the right track.",
+    "The demo app was delivered on time, and we even hear it got a few “oohs and ahhs”  when presented."
+  ],
+
+  "end-image1": "/case-study/deepardemo/deepardemo-sim-mockup.jpg",
+
+    "end-image2": "/case-study/deepardemo/deepardemo-ar-mockup.jpg",
+
+
+  "img":"/case-study/deepardemo/jonny-caspari-383401.jpg"
 }

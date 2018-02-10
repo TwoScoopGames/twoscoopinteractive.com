@@ -1,0 +1,50 @@
+{
+	"index.html": [
+    {
+			"template": "header",
+			"data": "data"
+		},
+    {
+      "template": "nav-home",
+      "data": "data"
+    },
+		{
+			"template": "services",
+			"data": "data"
+		},
+		{
+			"template": "portfolio",
+			"data": "portfolio"
+		},
+		{
+			"template": "team",
+			"data": "team"
+		},
+		{
+			"template": "contact",
+			"data": "data"
+		},
+		{
+			"template": "footer",
+			"data": "data"
+		}
+	],
+	"case-study/deepardemo.html": [
+    {
+			"template": "header",
+			"data": "data"
+		},
+    {
+      "template": "nav",
+      "data": "data"
+    },
+		{
+			"template": "case-study",
+			"data": "deepardemo"
+		},
+		{
+			"template": "footer",
+			"data": "data"
+		}
+	]
+}

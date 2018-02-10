@@ -1,82 +1,45 @@
+/*
+
+┌┐┌┌─┐┬┌─┐┌─┐
+││││ ││└─┐├┤
+┘└┘└─┘┴└─┘└─┘
+
+A super simple static site generator
+
+
+*/
 var fs = require("fs");
 var handlebars = require("handlebars");
 
+var pages = require("./site.json");
 
+assebleThese(pages);
 
-var pages = {
-  "index.html": [
-    {
-      'template': 'header',
-      'data': 'data',
-    },
-    {
-      'template': 'services',
-      'data': 'data',
-    },
-    {
-      'template': 'portfolio',
-      'data': 'portfolio',
-    },
-    {
-      'template': 'team',
-      'data': 'team',
-    },
-    {
-      'template': 'contact',
-      'data': 'data',
-    },
-    {
-      'template': 'footer',
-      'data': 'data',
-    }
-  ],
-  "case-study/deepardemo.html": [
-    {
-      'template': 'header',
-      'data': 'data',
-    },
-    {
-      'template': 'case-study',
-      'data': 'deepardemo',
-    },
-    {
-      'template': 'footer',
-      'data': 'data',
-    }
-  ]
-}
-
-
-
-generateOutputFiles(pages);
-
-
-
-function generateOutputFiles(pages){
-  Object.keys(pages).forEach((page) =>{
-    generateOutputFile(page, pages[page]);
+function assebleThese(pages){
+  Object.keys(pages).forEach((filename) =>{
+    assemble(filename, pages[filename]);
   });
-
 }
 
-function generateOutputFile(outputFile, site){
+function assemble(filename, pageData){
   var html = '';
-
-  site.map( (section) => {
-    html += renderFromExternalTemplate(section);
+  pageData.map( (section) => {
+    html += smash(section);
   });
+  saveFile(filename, html);
+}
 
-
-  fs.writeFile(outputFile, html, function(err) {
+function saveFile(filename, html) {
+  fs.writeFile(filename, html, (err) => {
     if(err) {
       return console.log(err);
     } else {
-      console.log("Compiled static pages successfully!");
+      console.log(filename, " – Compiled static page successfully!");
     }
   });
 }
 
-function renderFromExternalTemplate(section){
+function smash(section){
   var data = require('./templates/'+ section.data +'.json');
   var file = fs.readFileSync('./templates/'+ section.template +'.hbs', 'utf8');
   var template = handlebars.compile(file);
