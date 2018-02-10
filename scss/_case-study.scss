@@ -2,7 +2,6 @@
 
 .case-study{
 
-  $pad: 20px;
 
   p{
     font-size: 20px;
@@ -43,10 +42,6 @@
 
 
 
-  .fa-angle-down{
-    font-size: 75px;
-    margin-top: $pad * 3;
-  }
 
 
   .blockquote{
@@ -124,12 +119,7 @@
 
 
 
-  .text-white {
-    color: white !important;
-    h1, h2, h3, h4, h5, h6, p{
-      color: white !important;
-    }
-  }
+
 
 
 }/* case study*/

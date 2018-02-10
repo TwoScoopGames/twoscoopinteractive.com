@@ -10,7 +10,7 @@
     },
 		{
 			"template": "services",
-			"data": "data"
+			"data": "services"
 		},
 		{
 			"template": "portfolio",
