@@ -46,5 +46,23 @@
 			"template": "footer",
 			"data": "data"
 		}
+	],
+	"case-study/telerikcodekrush.html": [
+		{
+			"template": "header",
+			"data": "data"
+		},
+		{
+			"template": "nav",
+			"data": "data"
+		},
+		{
+			"template": "case-study",
+			"data": "telerikcodekrush"
+		},
+		{
+			"template": "footer",
+			"data": "data"
+		}
 	]
 }

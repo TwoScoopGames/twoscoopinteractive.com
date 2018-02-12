@@ -1,203 +1,91 @@
 <div class="case-study">
 
-
-
-  <div class="container-fluid fullbleed big-image" style="background: url('{{big-image}}') no-repeat center center fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-
-  background-attachment: fixed;">
-  <div class="inner text-center">
-
-    <div class="text-center">
-      <h1 class="text-white">{{project}}</h1>
-      <h4 class="text-white text-uppercase">Case Study</h4>
-
-      <i class="fa fa-angle-down"></i>
-    </div>
-
-  </div>
-
-</div>
-
-
-
-{{#if show-top}}
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 col-xs-12 ">
-      <h2 class="text-center">The Problem</h2>
-      <p>{{purpose-problem}}</p>
-      <br>
-      <br>
-    </div>
-
-    <div class="col-sm-6 col-xs-12">
-      <h2  class="text-center">{{client-name}}</h2>
-      <p>{{client-description}}</p>
-    </div>
-    <div class="col-sm-6 col-xs-12">
-      <h2  class="text-center">Product Concept</h2>
-      <p>{{purpose-solution}}</p>
-    </div>
-  </div>
-</div>
-{{/if}}
-
-
-
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-5 col-xs-12">
-      <h1>What We Did</h1>
-    </div>
-    <div class="col-sm-7 col-xs-12">
-
-      <p class="what-we-did-text">{{what-we-did}}</p>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
-      <img src="{{project-image}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  {{#each client-quotes}}
-  <blockquote class="blockquote blockquote-reverse">
-    <p class="mb-0"><span class="quote">&ldquo;</span>{{quote}}&rdquo;</p>
-    <footer class="blockquote-footer text-right"><cite title="Source Title">{{person}}</cite>, {{title}}, {{../client-name}}</footer>
-  </blockquote>
-  {{/each}}
-</div>
-
-
-
-<div class="container-fluid fullbleed bg-image " style="
-background: url('{{task-bg}}') no-repeat center center fixed;
-  background-size: cover;
-
- background-position: 50% 50%;
-background-attachment: fixed;">
-<div class="container text-center">
-  <div class="row">
-    <div class="col-sm-12 col-xs-12">
-      <h2 class="text-white">{{task}}</h2>
-    </div>
-    <div class="col-sm-12 col-xs-12">
-      <h4 class="text-white">{{task-flavor1}}</h4>
-    </div>
-    <div class="col-sm-12 col-xs-12">
-      <h4 class="text-white">{{task-flavor2}}</h4>
-    </div>
-  </div>
-</div>
-</div>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6 col-xs-12">
-      <h4 class="text-uppercase">The Challenge</h4>
-      <p>{{challenge}}
-      </div>
-      <div class="col-sm-6 col-xs-12">
-        <img src="{{challenge-image}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+  <div class="container-fluid fullbleed big-image" style=" background: url('{{big-image}}') no-repeat center center fixed; background-size: cover; background-position: 50% 50%; background-attachment: fixed;">
+    <div class="inner text-center">
+      <div class="text-center">
+        <h1 class="text-white">{{project}}</h1>
+        <h4 class="text-white text-uppercase">Case Study</h4>
+        <i class="fa fa-angle-down"></i>
       </div>
     </div>
   </div>
 
 
+
+  {{#if show-top}}
   <div class="container">
     <div class="row">
+      <div class="col-sm-12 col-xs-12 ">
+        <h2 class="text-center">The Problem</h2>
+        <p>{{purpose-problem}}</p>
+        <br>
+        <br>
+      </div>
+
       <div class="col-sm-6 col-xs-12">
-        <img src="{{outcome-image}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        <h2  class="text-center">{{client-name}}</h2>
+        <p>{{client-description}}</p>
       </div>
       <div class="col-sm-6 col-xs-12">
-        <h4 class="text-uppercase">Outcome</h4>
-        <p>{{outcome}}</p>
+        <h2  class="text-center">Product Concept</h2>
+        <p>{{purpose-solution}}</p>
       </div>
     </div>
   </div>
-
-
-
-
-  {{#if show-scope}}
-  <div class="container">
-    <div class="col-sm-12 col-xs-12">
-
-      {{#if social-share}}
-      <div class="module">
-        <h4 class="text-uppercase">Share This</h4>
-        {{#each social-share}}
-        <a href="{{url}}" title="{{title}}"><i class="fa {{icon}}"></i></a>
-        {{/each}}
-      </div>
-      {{/if}}
-
-
-      {{#if scope}}
-      <div class="module">
-        <h5 class="text-uppercase">Scope of Project</h5>
-        <ul class="simple">
-          {{#each scope}}
-          <li>{{this}}</li>
-          {{/each}}
-        </ul>
-      </div>
-      {{/if}}
-
-      {{#if additional-tasks}}
-      <div class="module">
-        <h5 class="text-uppercase">Additional Tasks</h5>
-        <ul class="simple">
-          {{#each additional-tasks}}
-          <li>{{this}}</li>
-          {{/each}}
-        </ul>
-      </div>
-      {{/if}}
-
-      {{#if url}}
-      <div class="module">
-        <a class="text-uppercase" href="{{url}}" target="_blank" title="{{project}} by Two Scoop Interactive for {{client}}"> See the website</a>
-      </div>
-      {{/if}}
-    </div>
-  </div>
-
   {{/if}}
 
+
+
+
+  {{#if what-we-did}}
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 col-xs-12">
-        <img src="{{project-image2}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+      <div class="col-sm-5 col-xs-12">
+        <h1>What We Did</h1>
       </div>
-      <div class="col-sm-6 col-xs-12">
-        <img src="{{project-image3}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+      <div class="col-sm-7 col-xs-12">
+        <p class="what-we-did-text">{{what-we-did}}</p>
       </div>
     </div>
   </div>
+  {{/if}}
 
 
-  {{#if process}}
+  {{#if project-image}}
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 col-xs-12">
-        <h1>Our process</h1>
+      <div class="col-sm-12 text-center">
+        <img src="{{project-image}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
       </div>
-      <div class="col-sm-6 col-xs-12">
-        <div class="module">
-          {{#each process}}
-          <p>{{this}}</p>
-          {{/each}}
+    </div>
+  </div>
+  {{/if}}
+
+
+  {{#if client-quotes}}
+  <div class="container">
+    {{#each client-quotes}}
+    <blockquote class="blockquote blockquote-reverse">
+      <p class="mb-0"><span class="quote">&ldquo;</span>{{quote}}&rdquo;</p>
+      <footer class="blockquote-footer text-right"><cite title="Source Title">{{person}}</cite>, {{title}}, {{../client-name}}</footer>
+    </blockquote>
+    {{/each}}
+  </div>
+  {{/if}}
+
+
+  {{#if task}}
+  <div class="container-fluid fullbleed bg-image " style=" background: url('{{task-bg}}') no-repeat center center fixed; background-size: cover; background-position: 50% 50%; background-attachment: fixed;">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+          <h2 class="text-white">{{task}}</h2>
+        </div>
+        <div class="col-sm-12 col-xs-12">
+          <h4 class="text-white">{{task-flavor1}}</h4>
+        </div>
+        <div class="col-sm-12 col-xs-12">
+          <h4 class="text-white">{{task-flavor2}}</h4>
         </div>
       </div>
     </div>
@@ -205,23 +93,165 @@ background-attachment: fixed;">
   {{/if}}
 
 
+  {{#if challenge}}
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-xs-12">
-        <img src="{{end-image1}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        <h4 class="text-uppercase">The Challenge</h4>
+        <p>{{challenge}}
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <img src="{{challenge-image}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
       </div>
-      <div class="col-sm-6 col-xs-12">
-        <img src="{{end-image2}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
-      </div>
-
     </div>
+    {{/if}}
+
+
+    {{#if outcome}}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <img src="{{outcome-image}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <h4 class="text-uppercase">Outcome</h4>
+          <p>{{outcome}}</p>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+
+    {{#if show-scope}}
+    <div class="container">
+      <div class="col-sm-12 col-xs-12">
+
+        {{#if social-share}}
+        <div class="module">
+          <h4 class="text-uppercase">Share This</h4>
+          {{#each social-share}}
+          <a href="{{url}}" title="{{title}}"><i class="fa {{icon}}"></i></a>
+          {{/each}}
+        </div>
+        {{/if}}
+
+
+        {{#if scope}}
+        <div class="module">
+          <h5 class="text-uppercase">Scope of Project</h5>
+          <ul class="simple">
+            {{#each scope}}
+            <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
+
+        {{#if additional-tasks}}
+        <div class="module">
+          <h5 class="text-uppercase">Additional Tasks</h5>
+          <ul class="simple">
+            {{#each additional-tasks}}
+            <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
+
+        {{#if url}}
+        <div class="module">
+          <a class="text-uppercase" href="{{url}}" target="_blank" title="{{project}} by Two Scoop Interactive for {{client}}"> See the website</a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+    {{/if}}
+
+
+    {{#if play-button-text}}
+      <div class="container text-center">
+        {{#if play-game-text}}
+          <h3>{{play-game-text}}</h3>
+          <br>
+        {{/if}}
+        <a class="btn btn-primary btn-xl" href="{{url}}" target="_blank">{{play-button-text}}</a>
+      </div>
+    {{/if}}
+
+
+    {{#if project-image2}}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <img src="{{project-image2}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <img src="{{project-image3}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+
+    {{#if process}}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <h1>Our process</h1>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="module">
+            {{#each process}}
+            <p>{{this}}</p>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
+
+    {{#if three-end-images}}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-xs-12">
+          <img src="{{end-image1}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <img src="{{end-image2}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <img src="{{end-image3}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+      </div>
+    </div>
+    {{else}}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <img src="{{end-image1}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <img src="{{end-image2}}" alt="Two Scoop Interactive created {{project}} for {{client}}"/>
+        </div>
+
+      </div>
+    </div>
+    {{/if}}
+    {{#if legal}}
+          <p style="font-size: 12px; max-width: 800px; margin:0 auto;">{{legal}}</p>
+    
+        {{/if}}
+
+
+    <div class="container text-center">
+      <h3>Do you have a problem we can solve with an interactive experience?</h3>
+      <br>
+      <a class="btn btn-primary btn-xl" href="/index.html#services">Let's create something fun!</a>
+    </div>
+
+
+
   </div>
-
-
-  <div class="container text-center">
-    <h3>Do you have a problem we can solve with an interactive experience?</h3>
-    <br>
-    <a class="btn btn-primary btn-xl" href="/index.html#services">Let's create something fun!</a>
-  </div>
-
-</div>

@@ -1,0 +1,76 @@
+{
+
+  "big-image": "/case-study/telerikcodekrush/telerik-codekrush-titlescreen.png",
+
+  "project": "Telerik CodeKrush",
+
+
+  "client-name": "Progress",
+
+
+  "show-top": false,
+  "client-description": "",
+  "purpose-problem":"",
+  "purpose-solution":"",
+
+
+
+  "client-quotes":[
+    {
+      "quote":"We needed something to draw attendees to our booth at events, and Two Scoop Games was the perfect partner for this. They developed Code Krush, a visually appealing and exciting game that features our mascots. People were lined up to have a chance to get a top score. Thanks Two Scoop Games!",
+      "person":"Merrill Turner",
+      "title":"Events Manager"
+    },
+    {
+      "quote": "Two Scoop Games caught our eye while looking for new and creative brand marketing. Having seen their Global Game Jam entries we knew they had the experience to create something fantastic on a short deadline. Not only did they meet our expectations but they also designed a clever video game incorporating our Progress branding elements.",
+      "person":"Ed Charbeneau",
+      "title":"Sr. Developer Advocate"
+    }
+  ],
+
+  "project-image": "/case-study/telerikcodekrush/telerik-codekrush-banner.png",
+
+  "task-bg": "",
+  "task": "",
+  "task-flavor1": "",
+  "task-flavor2": "",
+
+
+  "what-we-did":"Two Scoop Interactive created an exciting arcade style game to attract attention to Progress and thier products at trade shows.",
+
+  "challenge":"The marketing team at Progress came to us with a request for an engaging game to draw conference goers to their booth. The criteria was to use their existing mascot character assets for both the Telerik .NET Ninja and Kendo UI Kendoka, record player's emails, and be ready in time for their next trade show (less than 3 months away) but the rest was up to us!",
+  "challenge-image":"/case-study/telerikcodekrush/telerik-codekrush-mascots.png",
+
+  "outcome": " We developed an upbeat game with fun graphics based on their brand, colors, products, and company values. The game is configurable for each trade show they bring it to and records player analytics for use in contests and marketing. The project is web-based for easy cross-platform play on any computer.",
+  "outcome-image":"/case-study/telerikcodekrush/telerik-codekrush-gameplay.gif",
+
+  "show-scope": false,
+  "scope": [],
+  "additional-tasks": [],
+
+
+  "url": "https://codekrushgame.com",
+  "play-game-text":"Try the game for yourself and let us know your high score! @TwoScoopGames",
+  "play-button-text":"Play Telerik CodeKrush",
+
+
+  "project-image2": "/case-study/telerikcodekrush/telerik-codekrush-title.gif",
+
+  "project-image3": "/case-study/telerikcodekrush/telerik-codekrush-email.gif",
+
+
+  "process":[],
+
+
+"three-end-images": true,
+  "end-image1": "/case-study/telerikcodekrush/telerik-codekrush-tut1.png",
+
+  "end-image2": "/case-study/telerikcodekrush/telerik-codekrush-tut2.png",
+  "end-image3": "/case-study/telerikcodekrush/telerik-codekrush-tut3.png",
+
+
+
+  "img":"",
+
+  "legal": "Progress, Telerik, Kendo UI, Telerik .NET Ninja, and Kendo UI Kendoka names used herein are trademarks or registered trademarks of Progress Software Corporation and/or one of its subsidiaries or affiliates in the U.S. and/or other countries."
+}
