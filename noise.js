@@ -40,8 +40,21 @@ function saveFile(filename, html) {
 }
 
 function smash(section){
-  var data = require('./templates/'+ section.data +'.json');
+
+  var data = mergeJsonObjectFiles('./templates/', section.data);
+
   var file = fs.readFileSync('./templates/'+ section.template +'.hbs', 'utf8');
   var template = handlebars.compile(file);
   return template(data);
+}
+
+function mergeJsonObjectFiles(parentDirectory, filenames){
+  var json = {};
+  filenames.map((file)=>{
+    var temp = require(parentDirectory + file +'.json');
+    Object.keys(temp).map((key)=>{
+      json[key] = temp[key];
+    });
+  });
+  return json;
 }

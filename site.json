@@ -2,67 +2,67 @@
 	"index.html": [
     {
 			"template": "header",
-			"data": "data"
+			"data": ["data", "sharing"]
 		},
     {
       "template": "nav-home",
-      "data": "data"
+      "data": ["data"]
     },
 		{
 			"template": "services",
-			"data": "services"
+			"data": ["services"]
 		},
 		{
 			"template": "work",
-			"data": "work"
+			"data": ["work"]
 		},
 		{
 			"template": "team",
-			"data": "team"
+			"data": ["team"]
 		},
 		{
 			"template": "contact",
-			"data": "data"
+			"data": ["data"]
 		},
 		{
 			"template": "footer",
-			"data": "data"
+			"data": ["data"]
 		}
 	],
-	"case-study/deepardemo.html": [
+	"case-study/deepardemo/index.html": [
     {
 			"template": "header",
-			"data": "data"
+			"data": ["data", "deepardemo-sharing"]
 		},
     {
       "template": "nav",
-      "data": "data"
+      "data": ["data"]
     },
 		{
 			"template": "case-study",
-			"data": "deepardemo"
+			"data": ["deepardemo"]
 		},
 		{
 			"template": "footer",
-			"data": "data"
+			"data": ["data"]
 		}
 	],
-	"case-study/telerikcodekrush.html": [
+	"case-study/telerikcodekrush/index.html": [
 		{
 			"template": "header",
-			"data": "data"
+			"data": ["data", "telerikcodekrush-sharing"]
 		},
 		{
 			"template": "nav",
-			"data": "data"
+			"data": ["data"]
 		},
 		{
 			"template": "case-study",
-			"data": "telerikcodekrush"
+			"data": ["telerikcodekrush"]
 		},
 		{
 			"template": "footer",
-			"data": "data"
+			"data": ["data"]
 		}
 	]
 }
