@@ -21,6 +21,10 @@
 			"data": ["team"]
 		},
 		{
+			"template": "location",
+			"data": ["data"]
+		},
+		{
 			"template": "contact",
 			"data": ["data"]
 		},

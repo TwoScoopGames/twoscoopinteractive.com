@@ -16,7 +16,8 @@
   "parent-entity": "Two Scoop Games, LLC",
 
   "email": "info@twoscoopgames.com",
-  "phone": "502.715.2710",
+  "phone": "1-502-715-2710",
+  "phone-human":"(502) 715-2710",
 
   "social": [
     {
@@ -36,6 +37,12 @@
       "icon":"fa-linkedin",
       "url": "https://www.linkedin.com/company/twoscoopinteractive/",
       "title":"Connect with us on Linkedin"
+    },
+    {
+      "name": "Phone",
+      "icon":"fa-phone",
+      "url": "tel:1-502-715-2710",
+      "title":"Give us a call: (502) 715-2710"
     }
   ],
   "fb-like-url": "https://www.facebook.com/TwoScoopInteractive",
