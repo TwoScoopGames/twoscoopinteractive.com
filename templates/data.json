@@ -22,22 +22,22 @@
     {
       "name": "twitter",
       "icon":"fa-twitter",
-      "url": "https://twitter.com/TwoScoopGames",
+      "url": "https://twitter.com/TwoScoopInt",
       "title":"Follow us on Twitter"
     },
     {
       "name": "twitter",
       "icon":"fa-facebook",
-      "url": "https://www.facebook.com/TwoScoopGames",
+      "url": "https://www.facebook.com/TwoScoopInteractive",
       "title":"Like us on Facebook"
     },
     {
       "name": "Linkedin",
       "icon":"fa-linkedin",
-      "url": "https://www.linkedin.com/company/two-scoop-games",
+      "url": "https://www.linkedin.com/company/twoscoopinteractive/",
       "title":"Connect with us on Linkedin"
     }
   ],
-
+  "fb-like-url": "https://www.facebook.com/TwoScoopInteractive",
   "footer-location": "Proudly located in Louisville, Kentucky USA ❤️"
 }
